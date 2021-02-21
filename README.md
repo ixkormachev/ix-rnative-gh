@@ -1,2 +1,2 @@
-# ix-rnativve-gh
+# ix-rnative-gh
 React Native example. Developing Web application and Telephone applications with React Native a single source
