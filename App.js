@@ -13,13 +13,9 @@ export default class App extends React.Component {
 
     return (
       <View style={styles.container}>
-        {isLoading ? (
           <View style={styles.loadingContainer}>
             <Text stlye={styles.loadingText}>React Native Example</Text> 
           </View>
-          ) : (
-            <Weather weather={weatherCondition} temperature={temperature} location={location} humidity={humidity}/>
-        )}
       </View>
     );
   }
